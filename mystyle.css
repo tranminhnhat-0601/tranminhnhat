@@ -1,0 +1,289 @@
+body {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.hoca{
+    width: 100vw;
+    height: 100vh;
+    background: url('images/hoca.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+
+.cavang1{
+    background-image: url('images/goldFishSchool.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    overflow: hidden;
+    
+    animation: cavangboi 13s ease-in-out infinite;
+}
+.nguoiboi1{
+    background-image: url('images/nguoiboi1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    right : 50px;
+    bottom: 55%;
+    overflow: hidden;
+    
+    animation: cavangboi1 10s ease-in-out infinite 1s;
+}
+.nguoiboi2{
+    background-image: url('images/nguoiboi2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 160px;
+    position: absolute;
+    right : 90px;
+    bottom: 600px;
+    overflow: hidden;
+    
+    animation: cavangboi1 15s ease-in-out infinite 1.5s;
+}
+@keyframes cavangboi {
+    0%{
+        transform: translateX(0) scaleX(1);
+    }
+    50%{ transform: translateX(900px) 
+        scaleX(1);}
+    51%{ transform: translateX(900px) scaleX(-1);}
+    
+    100%{ 
+        transform: translateX(0) scaleX(-1);
+    }
+}
+@keyframes cavangboi1 {
+    0%{
+        transform: translateX(0) scaleX(1);
+    }
+    50%{ transform: translateX(-900px) 
+        scaleX(1);}
+    51%{ transform: translateX(-900px) scaleX(-1);}
+    
+    100%{ 
+        transform: translateX(0) scaleX(-1);
+    }
+}
+
+.shark1{
+    background-image: url('images/shark.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: -15px;
+    top: 45%;
+    overflow: hidden;
+    
+    animation: sharkswim 10s ease-out infinite 2s;
+}
+@keyframes sharkswim{ 
+    0%{
+        left: -15px;}
+    30%{
+        left: 200px;
+    }
+    70%{
+        left: 900px;
+    }    
+    100%{
+        left: 110%; }
+}
+
+.ruaboi{
+    background-image: url('images/rua.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 80px;
+    position: absolute;
+    right: -10px;
+    bottom: 30px;
+    overflow: hidden;
+    transform: rotate(20deg);
+    animation: ruaboi 25s ease-in-out infinite 0.2s;
+}
+@keyframes ruaboi{ 
+    0%{
+        right: -10px;
+        bottom: 30px;
+        }    
+    100%{
+        right: 110%;
+        bottom: 110%;  }
+}
+.bbnuoc1{
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    left: 16%;
+    bottom: 0px;
+    overflow: hidden;
+    animation: bochoi 7s linear infinite 0.1s;
+   
+}
+.bbnuoc2{
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    left:48%;
+    bottom: 0px;
+    overflow: hidden;
+    
+    animation: bochoi 7s linear infinite 1s;
+}
+.bbnuoc3{
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    left: 88%;
+    bottom: 0px;
+    overflow: hidden;
+    
+    animation: bochoi 7s linear infinite 2s;
+}
+.bbnuoc4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 55%;
+    bottom: 0px;
+    overflow: hidden;
+    
+    animation: bochoi 7s linear infinite 1.5s;
+}
+.bbnuoc5{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 75%;
+    bottom: 0px;
+    overflow: hidden;
+    
+    animation: bochoi 7s linear infinite 0.5s;
+}
+@keyframes bochoi {
+    0%{
+        top: 110%;
+        
+    }
+    45%{
+        opacity: 1;
+    }
+    100%{
+        top: 20%;
+        opacity: 0;
+    }
+}
+.bbnuoc6{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 16%;
+    bottom: 30%;
+    overflow: hidden;
+    
+    animation: bochoi1 4s linear infinite ;
+}
+@keyframes bochoi1 {
+    0%{
+        bottom:30%;
+        opacity: 0.5;
+        
+    }
+    45%{
+        opacity: 1;
+    }
+    100%{
+        bottom: 50%;
+        opacity: 0;
+    }
+}
+.bbnuoc7{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 48%;
+    bottom: 75%;
+    overflow: hidden;
+    
+    animation: bochoi2 3s linear infinite ;
+}
+@keyframes bochoi2 {
+    0%{
+        bottom:75%;
+        opacity: 0.5;
+        
+    }
+    45%{
+        opacity: 1;
+    }
+    100%{
+        bottom: 90%;
+        opacity: 0;
+    }
+}
+.bbnuoc8{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 80%;
+    bottom: 50%;
+    overflow: hidden;
+    
+    animation: bochoi3 5s linear infinite 0.5s;
+}
+@keyframes bochoi3 {
+    0%{
+        bottom:50%;
+        opacity: 0.5;
+        
+    }
+    45%{
+        opacity: 1;
+    }
+    100%{
+        bottom: 70%;
+        opacity: 0;
+    }
+}
+.ruaboi2{
+    background-image: url('images/turtle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 170px;
+    position: absolute;
+    right: 90%;
+    bottom: 10%;
+    overflow: hidden;
+    
+    animation: ruaboi 30s ease-in-out infinite 0.3s;
+}
+@keyframes ruaboi {
+    0%{
+        transform: translateX(0) scaleX(1);
+    }
+    50%{ transform: translateX(990px) 
+        scaleX(1);}
+    51%{ transform: translateX(990px) scaleX(-1);}
+    
+    100%{ 
+        transform: translateX(0) scaleX(-1);
+    }
+}
